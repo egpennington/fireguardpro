@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireGuard Pro: Fire Safety Quiz Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>FireGuard Pro: Fire Safety Quiz Game</h1>
+        <div id="question-container">
+            <p id="question">Question goes here...</p>
+        </div>
+        <div id="options-container">
+            <!-- Options will be dynamically populated with JavaScript -->
+        </div>
+        <button id="next-button">Next</button>
+        <p id="score">Score: 0</p>
+        <p id="accumulated-score">Accumulated Score: 0</p> <!-- Added accumulated score display -->
+        <div id="trophies">
+            <!-- Trophies will be displayed here -->
+        </div>
+        <div id="level">Level: Cadet</div>
+        <button id="reset-button" style="display: none;">Reset Quiz</button>
+    </div>
+    <div class="leaderboard-container">
+        <h2>Leader Board...</h2>
+        <ul id="leaderboard">
+            <!-- Leaderboard items will be dynamically populated with JavaScript -->
+        </ul>
+    </div>
+    <div class="ticker-container">
+        <marquee id="ticker" behavior="scroll" direction="left" scrollamount="4">
+            <!-- Ticker content will be dynamically populated with JavaScript -->
+        </marquee>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
